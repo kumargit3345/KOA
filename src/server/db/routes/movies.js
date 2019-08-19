@@ -6,7 +6,7 @@ const BASE_URL = `/api/v1/movies`;
 
 router.get(BASE_URL, async (ctx) => {
   try {
-    const movies = await queries.getAllMovies();
+    const movies = await queries.getAlcd.lMovies();
     ctx.body = {
       status: 'success',
       data: movies

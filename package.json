@@ -1,5 +1,5 @@
 {
-  "name": "node-koa-api",
+  "name": "koa-api",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -26,5 +26,18 @@
     "koa-session": "^5.5.1",
     "passport-local": "^1.0.0",
     "pg": "^7.1.2"
-  }
+  },
+  "description": "[![Build Status](https://travis-ci.org/mjhea0/node-koa-api.svg?branch=master)](https://travis-ci.org/mjhea0/node-koa-api)",
+  "main": "knexfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjhea0/node-koa-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mjhea0/node-koa-api/issues"
+  },
+  "homepage": "https://github.com/mjhea0/node-koa-api#readme"
 }
